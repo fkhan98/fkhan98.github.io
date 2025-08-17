@@ -4,7 +4,7 @@ title: "Publication"
 permalink: /publication/
 ---
 
-## Current Research Domain
+## Current Research Project
 
 Working on solving and optmizing the problem of Relational Deep Learning where we represent a Relational Database as a Heterogenous Graph and apply advanced GraphML techniques to learn robust embeddings that can be used for different downstream tasks. 
 
