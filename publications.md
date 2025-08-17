@@ -11,7 +11,7 @@ Working on solving and optmizing the problem of Relational Deep Learning where w
 ## Publications After Starting My PhD
 
 1. **A Vision for SQL-Based Relational Deep Learning**  
-   *Accepted at the 3rd International Workshop on Tabular Data Analysis (TaDA), co-located with VLDB 2025.*
+   *Accepted at the 3rd International Workshop on Tabular Data Analysis (TaDA), co-located with **VLDB 2025**.*
 
 ---
 
