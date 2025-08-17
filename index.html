@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: "Home"
 ---
@@ -7,4 +7,20 @@ title: "Home"
   {% include home.html %}
 {% else %}
   {% include archive.html title="Posts" %}
+{% endif %} -->
+
+---
+layout: default
+title: "Home"
+---
+
+{% assign about = site.pages | where: "path", "about_me.md" | first %}
+{% if about %}
+  <h1>{{ about.title }}</h1>
+  <div class="page-content">
+    {{ about.content }}
+  </div>
+{% else %}
+  <p>About page not found.</p>
 {% endif %}
+
