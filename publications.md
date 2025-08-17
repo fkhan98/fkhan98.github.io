@@ -4,6 +4,14 @@ title: "Publication"
 permalink: /publication/
 ---
 
+
+## Publications After Starting My PhD
+
+1. **A Vision for SQL-Based Relational Deep Learning**  
+   *Accepted at the 3rd International Workshop on Tabular Data Analysis (TaDA), co-located with VLDB 2025.*
+
+---
+
 ## Undergraduate Publications
 
 1. **Attresdu-net: Medical image segmentation using attention-based residual double u-net**  
@@ -14,9 +22,5 @@ permalink: /publication/
    **FS Khan**, M Al Mushabbir, MS Irbaz, MDA Al Nasim  
    *2021 20th IEEE International Conference on Machine Learning and Applications (ICMLA)*.
 
----
 
-## Publications After Starting My PhD
 
-1. **A Vision for SQL-Based Relational Deep Learning**  
-   *Accepted at the 3rd International Workshop on Tabular Data Analysis (TaDA), co-located with VLDB 2025.*
