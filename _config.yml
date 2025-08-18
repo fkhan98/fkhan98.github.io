@@ -28,7 +28,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:fsk2739@mavs.uta.edu"}
   - {title: Linkedin, icon: linkedin-in, url: "https://www.linkedin.com/in/fahim-shahriar-khan-abb0a31a8/"}
-  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=w8iVLl8AAAAJ&hl=en&authuser=1"}
+  - {title: Google Scholar, icon: google, url: "https://scholar.google.com/citations?user=w8iVLl8AAAAJ&hl=en&authuser=1"}
   - {title: Github, icon: github, url: "https://github.com/fkhan98"}
 
 comments:
