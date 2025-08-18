@@ -1,0 +1,15 @@
+.avatar-wrap {
+  width: 180px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto 1.25rem;
+  border-radius: 9999px;   /* full circle */
+  border: 3px solid #e5e7eb;
+  overflow: hidden;        /* crops the image to the circle */
+  display: flex;
+}
+.avatar { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
