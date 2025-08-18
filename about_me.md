@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="avatar-wrap">
   <img
-    src="{{ '/assets/images/fahim.jpg' | relative_url }}"
+    src="{{ '/assets/images/fahim.jpeg' | relative_url }}"
     alt="Fahim Shahriar Khan"
     class="avatar"
     width="180"
