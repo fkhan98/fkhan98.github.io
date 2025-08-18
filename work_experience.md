@@ -3,8 +3,6 @@ layout: page
 permalink: /work-experience/
 ---
 
-## The University of Texas at Arlington — Arlington, Texas
-
 ### Graduate Research Assistant · Part-time · May 2025 – Present
 - Focus areas:  **Big Data Management**, **Big Data Mining**, **Graph ML**.
 
