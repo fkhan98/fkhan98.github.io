@@ -342,6 +342,54 @@ table { border-collapse: collapse; display: block; overflow-x: auto; max-width: 
 th, td { border: 1px solid var(--rule); padding: .45rem .8rem; text-align: left; }
 .katex { overflow-x: auto; overflow-y: hidden; }
 
+/* ---------- Laptops and larger: use the full screen width ---------- */
+
+@media (min-width: 64rem) {
+  .wrap {
+    max-width: 100rem;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  body { font-size: 1.09rem; }
+  main { padding-top: 3.5rem; }
+
+  .lede { max-width: 52rem; }
+  .news li, .pub { grid-template-columns: 7.5rem 1fr; gap: 2rem; }
+  .skills { grid-template-columns: 14rem 1fr; }
+
+  /* Home: profile column on the left, bio + news on the right */
+  .home {
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    column-gap: 5vw;
+    align-items: start;
+  }
+  .home .intro {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .home .intro-text, .home .intro-photo { width: 100%; min-width: 0; margin-left: 0; }
+  .home .intro-photo { order: -1; margin-bottom: 1.5rem; }
+  .home .intro h1 { font-size: 2.1rem; }
+  .home .contact-links { flex-direction: column; gap: .55rem; }
+  .home .bio, .home .news-section { grid-column: 2; }
+  .home .bio p { max-width: none; }
+  .home .news-section h2 { margin-top: 2.5rem; }
+}
+
+@media (min-width: 100rem) {
+  body { font-size: 1.15rem; }
+  .home { grid-template-columns: 20rem 1fr; }
+}
+
 /* ---------- Small screens ---------- */
 
 @media (max-width: 40rem) {
