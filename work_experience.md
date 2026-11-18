@@ -14,7 +14,8 @@ permalink: /work-experience/
   <div class="entry-role">Ph.D. in Computer Science · Databases, Data Management, and Machine Learning</div>
   <ul>
     <li>Research focus: DBMS support for ML workloads on big data, graph data processing, and big data mining.</li>
-    <li>Advisor: <a href="https://ashraf.aboulnaga.me/">Ashraf Aboulnaga</a></li>
+    <li>Advisor: <a href="https://ashraf.aboulnaga.me/">Ashraf Aboulnaga</a> · <a href="https://www.lids-lab.org/">LIDS Lab</a></li>
+    <li>CGPA: 4.00 / 4.00</li>
   </ul>
 </div>
 
@@ -38,6 +39,9 @@ permalink: /work-experience/
     <span class="entry-date">Aug 2024 – Present</span>
   </div>
   <div class="entry-role">Graduate Research Assistant · Department of Computer Science and Engineering · Arlington, TX</div>
+  <ul>
+    <li>Member of the <a href="https://www.lids-lab.org/">Large-scale Intelligent Data Systems (LIDS) Lab</a>, working with <a href="https://ashraf.aboulnaga.me/">Ashraf Aboulnaga</a> on database systems for machine learning.</li>
+  </ul>
 </div>
 
 <div class="entry">
