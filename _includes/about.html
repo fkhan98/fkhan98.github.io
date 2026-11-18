@@ -1,0 +1,53 @@
+<section class="intro">
+  <div class="intro-text">
+    <h1>{{ site.author }}</h1>
+    <p class="intro-role">Ph.D. Student in Computer Science<br>
+      <a href="https://www.uta.edu/">The University of Texas at Arlington</a></p>
+    {% include menu.html menu=site.external class="contact-links" labels=true %}
+  </div>
+  <figure class="intro-photo">
+    <img src="{{ '/assets/fahim.jpeg' | relative_url }}" alt="Portrait of {{ site.author }}" width="960" height="1280">
+  </figure>
+</section>
+
+<section class="bio">
+  <p>I am a Ph.D. student in Computer Science at The University of Texas at Arlington, advised by
+  <a href="https://ashraf.aboulnaga.me/">Ashraf Aboulnaga</a>. I work at the intersection of
+  <strong>database systems</strong> and <strong>machine learning</strong>, building efficient and
+  scalable data systems for AI/ML workloads. Lately that means using the database itself (SQL,
+  query processing, statistics, incremental maintenance) to make learning over large relational
+  data faster and cheaper.</p>
+
+  <p>Before my Ph.D., I spent over two years in industry as a machine learning engineer, building and
+  deploying production systems for speech recognition, NLP and LLM-powered applications. I received
+  my B.Sc. in Computer Science and Engineering from the Islamic University of Technology (IUT),
+  Bangladesh.</p>
+
+  <p>Outside of research, I enjoy talking about data-driven systems, and I am a huge football fan.
+  Chelsea is my club. Keep the blue flag flying high!</p>
+
+  <p class="interests"><span class="label">Interests</span>
+  DBMS support for ML workloads &middot; Relational deep learning &middot; Graph data processing &middot; Big data mining</p>
+</section>
+
+<section class="news-section">
+  <h2>News</h2>
+  {% assign featured = site.data.news | where: "featured", true %}
+  {% for item in featured %}
+  <aside class="announcement">
+    <div class="announcement-head">
+      <span class="label">Announcement</span>
+      <time>{{ item.date }}</time>
+    </div>
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.text }}</p>
+    {% if item.button %}<a class="button" href="{{ item.button.url }}">{{ item.button.label }} <span aria-hidden="true">&rarr;</span></a>{% endif %}
+  </aside>
+  {% endfor %}
+
+  <ul class="news">
+    {% for item in site.data.news %}{% unless item.featured %}
+    <li><time>{{ item.date }}</time><span>{{ item.text }}</span></li>
+    {% endunless %}{% endfor %}
+  </ul>
+</section>

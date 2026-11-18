@@ -1,29 +1,21 @@
 ---
 layout: page
-title: "Research & Publication"
+title: "Publications"
 permalink: /publication/
 ---
 
-## Current Research Project
+<p class="lede-note">* denotes equal contribution (co-first authorship). See also my <a href="https://scholar.google.com/citations?user=w8iVLl8AAAAJ&amp;hl=en">Google Scholar</a> profile.</p>
 
-Working on solving and optmizing the problem of Relational Deep Learning where we represent a Relational Database as a Heterogenous Graph and apply advanced GraphML techniques to learn robust embeddings that can be used for different downstream tasks. 
-
-## Publications After Starting My PhD
-
-1. **A Vision for SQL-Based Relational Deep Learning**  
-   *Accepted at the 3rd International Workshop on Tabular Data Analysis (TaDA), co-located with **VLDB 2025**.*
-
----
-
-## Undergraduate Publications
-
-1. **Attresdu-net: Medical image segmentation using attention-based residual double u-net**  
-   AM Khan, A Ashrafee, **FS Khan**, MB Hasan, MH Kabir  
-   *2023 International Joint Conference on Neural Networks **(IJCNN)***.
-
-2. **End-to-End Natural Language Understanding Pipeline for Bangla Conversational Agents**  
-   **FS Khan**, M Al Mushabbir, MS Irbaz, MDA Al Nasim  
-   *2021 20th IEEE International Conference on Machine Learning and Applications **(ICMLA)***.
-
-
-
+<ol class="pubs">
+{% for pub in site.data.publications %}
+  <li class="pub">
+    <span class="pub-short">{{ pub.short }}</span>
+    <div class="pub-body">
+      <div class="pub-title">{{ pub.title }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-venue">{{ pub.venue }}{% if pub.status %} <span class="status">{{ pub.status }}</span>{% endif %}</div>
+      {% if pub.links %}<p class="links">{% for l in pub.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+    </div>
+  </li>
+{% endfor %}
+</ol>

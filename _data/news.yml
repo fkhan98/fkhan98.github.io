@@ -1,0 +1,29 @@
+# Newest first. `text` may contain HTML. Set `featured: true` to show an item as the
+# highlighted announcement at the top of the News section.
+
+- date: "Nov 2026"
+  featured: true
+  title: "MetaSieve accepted to VLDB 2027"
+  button: {label: "Read the paper on arXiv", url: "https://arxiv.org/abs/2608.25903"}
+  text: >-
+    Our paper <em>MetaSieve: Faster Relational Deep Learning through SQL-Based Metapath
+    Selection</em> has been accepted to the <strong>main research track of VLDB 2027</strong>.
+    The proceedings are not out yet, so please read the
+    <a href="https://arxiv.org/abs/2608.25903">preprint on arXiv</a>.
+    The code is on <a href="https://github.com/lids-lab/metasieve">GitHub</a>.
+
+- date: "Sep 2025"
+  text: >-
+    Presented <em>A Vision for SQL-Based Relational Deep Learning</em> at the
+    <a href="https://tabular-data-analysis.github.io/tada2025/">TaDA workshop</a>,
+    co-located with VLDB 2025 in London.
+
+- date: "Jun 2025"
+  text: >-
+    <em>A Vision for SQL-Based Relational Deep Learning</em> was accepted to the
+    3rd International Workshop on Tabular Data Analysis (TaDA) at VLDB 2025.
+
+- date: "Aug 2024"
+  text: >-
+    Started my Ph.D. in Computer Science at The University of Texas at Arlington,
+    advised by <a href="https://ashraf.aboulnaga.me/">Ashraf Aboulnaga</a>.

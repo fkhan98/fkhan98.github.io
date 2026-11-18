@@ -1,0 +1,31 @@
+# Newest first. Wrap my name in <u>...</u> in `authors`; `*` marks equal contribution.
+
+- short: "VLDB '27"
+  title: "MetaSieve: Faster Relational Deep Learning through SQL-Based Metapath Selection"
+  authors: "<u>Fahim Shahriar Khan</u> and Ashraf Aboulnaga"
+  venue: "International Conference on Very Large Data Bases (VLDB), Main Research Track, 2027"
+  status: "Accepted"
+  links:
+    - {label: "arXiv", url: "https://arxiv.org/abs/2608.25903"}
+    - {label: "Code", url: "https://github.com/lids-lab/metasieve"}
+
+- short: "TaDA '25"
+  title: "A Vision for SQL-Based Relational Deep Learning"
+  authors: "<u>Fahim Shahriar Khan</u> and Ashraf Aboulnaga"
+  venue: "VLDB 2025 Workshop on Tabular Data Analysis (TaDA), London, United Kingdom, September 2025"
+  links:
+    - {label: "PDF", url: "https://vldb.org/2025/Workshops/VLDB-Workshops-2025/TaDA/TaDA25_3.pdf"}
+
+- short: "IJCNN '23"
+  title: "AttResDU-Net: Medical Image Segmentation Using Attention-based Residual Double U-Net"
+  authors: "Akib Mohammed Khan*, Alif Ashrafee*, <u>Fahim Shahriar Khan</u>*, Md. Bakhtiar Hasan, and Md. Hasanul Kabir"
+  venue: "International Joint Conference on Neural Networks (IJCNN), 2023"
+  links:
+    - {label: "IEEE Xplore", url: "https://ieeexplore.ieee.org/abstract/document/10191528"}
+
+- short: "ICMLA '21"
+  title: "End-to-End Natural Language Understanding Pipeline for Bangla Conversational Agents"
+  authors: "<u>Fahim Shahriar Khan</u>, Mueeze Al Mushabbir, Mohammad Sabik Irbaz, and MD Abdullah Al Nasim"
+  venue: "IEEE International Conference on Machine Learning and Applications (ICMLA), 2021"
+  links:
+    - {label: "IEEE Xplore", url: "https://doi.org/10.1109/ICMLA52953.2021.00039"}

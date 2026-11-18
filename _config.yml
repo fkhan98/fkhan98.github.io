@@ -1,39 +1,44 @@
 title: "Fahim Shahriar Khan"
 author: "Fahim Shahriar Khan"
-description: "University of Texas at Arlington"
+description: "Ph.D. student in Computer Science at The University of Texas at Arlington, working on database systems for machine learning."
+tagline: "Ph.D. Student · Database Systems & ML Systems"
+url: "https://fkhan98.github.io"
+baseurl: ""
 permalink: /:title/
 lang: "en"
+timezone: America/Chicago
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
 show_social: true
-show_excerpts: false        
-show_frame: true 
+show_excerpts: false
+show_frame: true
 show_sidebar: false        # show a sidebar instead of the usual header
-# minimal: true             # use a dark header
 
 # Menu
-
-# navigation:                # accepts {file, title, url, icon, sidebaricon}
-#   - {file: "index.html", title: "Home", icon: home}
-#   - {file: "README.md", title: "About me", icon: address-card}
-
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "about_me.md", title: "About"}
-  - {file: "publications.md", title: "Publication"}
-  - {file: "work_experience.md", title: "Work Experience"}
-  # - {file: "README.md", title: "About me"}
+  - {file: "index.html", title: "About"}
+  - {file: "research.md", title: "Research"}
+  - {file: "publications.md", title: "Publications"}
+  - {file: "work_experience.md", title: "Experience"}
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:fsk2739@mavs.uta.edu"}
-  - {title: Linkedin, icon: linkedin-in, url: "https://www.linkedin.com/in/fahim-shahriar-khan-abb0a31a8/"}
-  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=w8iVLl8AAAAJ&hl=en&authuser=1"}
-  - {title: Github, icon: github, url: "https://github.com/fkhan98"}
+external:                  # footer / contact links - icons come from _data/font-awesome/icons.json
+  - {title: Email, icon: envelope, url: "mailto:fsk2739@mavs.uta.edu"}
+  - {title: Google Scholar, icon: graduation-cap, url: "https://scholar.google.com/citations?user=w8iVLl8AAAAJ&hl=en"}
+  - {title: LinkedIn, icon: linkedin-in, url: "https://www.linkedin.com/in/fahim-shahriar-khan-abb0a31a8/"}
+  - {title: GitHub, icon: github, url: "https://github.com/fkhan98"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
 #  isso_domain: ""         # see https://posativ.org/isso/
+
+exclude:
+  - README.md
+  - UNLICENSE.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 plugins:
  - jekyll-feed
